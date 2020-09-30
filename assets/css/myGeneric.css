@@ -1,0 +1,195 @@
+
+/* Start Upper bar */
+
+
+nav {
+    background-color: #6cc091
+}
+
+nav .navbar-brand,
+nav a{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400
+    
+}
+
+nav span {
+    font-weight: bold
+}
+
+nav a {
+    margin-left: 12px
+}
+
+nav a:hover {
+    color: #fff
+        
+}
+
+.navbar-toggler-icon {
+    color: #f7f7f7
+}
+
+
+
+
+
+/* End Upper bar */
+
+
+/* Start Header */
+
+header {
+    padding-top: 120px;
+    margin-bottom: 80px
+}
+
+header h1 {
+    color: #777;
+    font-weight: 400;
+    margin-bottom: 15px
+    
+}
+
+header span {
+    color: #979797
+}
+
+
+/* End Header */
+
+/* Start Articles */
+
+
+article img {
+    border-radius: 50%;
+    padding-top: 14px;
+    display: inline-block
+}
+
+@media (max-width:767px) {
+    article img {
+        margin-bottom: 20px
+
+}
+}
+
+
+
+
+article p {
+        color: #979797
+
+}
+
+@media (max-width:991px) {
+    article p {
+        margin-left: 48px
+
+}
+}
+
+article .articletwo {
+    margin-bottom: 10px
+}
+
+article:last-of-type {
+    margin-bottom: 70px
+}
+
+
+
+/* End Articles */
+
+/* Start Contact us */ 
+
+.contact-us {
+    background-color: #6cc091;
+    height: 700px;
+    color: #fff;
+    padding-top: 75px
+}
+
+.contact-us h4 {
+    font-weight: 500;
+    margin-bottom: 40px
+}
+
+.contact-us input {
+    background-color: #6cc091;
+    border: 1px solid #9cbeb3;
+    border-radius: 12px ;
+    padding: 10px 13px;
+    margin-bottom: 20px
+}
+
+.contact-us input:focus,
+.contact-us textarea:focus{
+    border: 3px solid #4bae77;
+    
+}
+
+.contact-us input::placeholder {
+    color: #f7f7f7
+}
+
+.contact-us textarea {
+    height: 187px;
+    background-color: #6cc091;
+    border: 1px solid #9cbeb3;
+    border-radius: 12px ;
+    padding: 10px 13px;
+    margin-bottom: 30px
+
+}
+
+    
+
+textarea::placeholder {
+    color: #f7f7f7
+}
+
+.contact-us button {
+    background-color: #6cc091;
+    padding: 10px 50px;
+    color: #f7f7f7;
+    border: 3px solid #fff;
+    border-radius: 25px 25px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px
+    
+}
+
+
+.contact-us button:hover {
+    background-color: rgba(75,174,119,0.5)
+}
+
+.contact-us button, 
+.contact-us input,
+.contact-us textarea {
+    outline: none
+}
+
+.copyright {
+    font-size: 12px;
+    color: #a6d8b7
+}
+
+.copyright span:hover {
+    cursor: pointer;
+    color: #fff
+}
+
+
+
+
+/* End contact us */
+
+
+
+
+
+
+

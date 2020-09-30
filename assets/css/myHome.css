@@ -1,0 +1,295 @@
+/* 
+Main color : #6cc091
+
+*/
+
+/* Main rules */ 
+
+
+
+
+.cover-img {
+    background: url("../images/banner.jpg") no-repeat center center fixed;
+    height: 737px
+}
+
+@media (max-width:991px) {
+    .cover-img {
+        height: 1300px
+    }
+    
+}
+
+
+
+
+/* STart Nav bar */
+
+nav { 
+    margin-bottom: 20px; 
+    z-index: 3
+}
+
+nav .navbar-brand,
+nav .nav-link{
+    color: #fff;
+    padding-top: 25px
+    
+
+}
+
+nav .navbar-brand span {
+    font-weight: bold
+}
+
+nav ul li { 
+margin-left: 20px
+
+
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+    color: #f7f7f7;
+    margin-top: 25px
+}
+
+
+/* End navbar */
+
+/* Start Opening */
+
+.opening {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+        padding-top: 150px;
+    border-top:  2px solid #72727e;
+    z-index: 5
+}
+.overlay {
+position: absolute;
+    width: 100%;
+    height: 737px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(75,75,90, 0.5)
+}
+
+@media (max-width:991px) {
+    .overlay {
+        height: 1300px
+    }
+    
+}
+
+
+
+.opening h1 {
+    margin-bottom: 55px;
+    font-weight: bold
+}
+
+.opening .MidOne {
+    border-right: 2px solid #72727e;
+    border-left: 2px solid #72727e
+}
+
+@media (max-width:991px) {
+    .opening .MidOne {
+        border-right: none;
+        border-left: none;
+        
+    }
+    
+}
+
+@media (max-width:768px) {
+    .opening .MidOne {
+        margin-bottom: 15px;
+        margin-top: 15px
+        
+    }
+    
+}
+
+.opening i {
+    margin-bottom: 15px;
+    color: #6cc091
+}
+
+.opening h3 {
+    margin-bottom: 10px
+}
+
+.opening p {
+    color: #abadb5
+}
+
+.opening button {
+    margin-top: 55px;
+    background-color: transparent;
+    padding: 10px 50px;
+    color: #6cc091;
+    border: 3px solid #6cc091;
+    border-radius: 25px 25px;
+    transition: all 0.5s ease-in-out 
+}
+
+.opening button:hover {
+    background-color: rgba(108,192,145, 0.3);
+    
+}
+/* End Opening */
+
+
+/* End navbar */
+
+/* Start Home Body */ 
+
+.home-body {
+    padding-top: 70px;
+    margin-bottom: 70px
+}
+
+.home-body img {
+    border-radius: 50%
+}
+
+.home-body h3 {
+    color:  #5a5555;
+}
+
+.home-body h3:first-of-type {
+    margin-top: 20px
+}
+
+@media (max-width:768px) {
+    .fbody  {
+        margin-bottom: 25px;
+        
+        
+    }
+    
+}
+
+.home-body h3:last-of-type {
+    margin-bottom: 20px
+}
+
+.home-body p {
+    color: #abadb5
+}
+
+.home-body button {
+    margin-top: 25px;
+    background-color: transparent;
+    padding: 10px 50px;
+    color: #6cc091;
+    border: 3px solid #6cc091;
+    border-radius: 25px 25px;
+    transition: all 0.5s ease-in-out 
+}
+
+.home-body button:hover {
+    background-color: rgba(108,192,145, 0.3);
+    
+}
+
+
+/* End Home Body */
+
+
+/* Start Contact us */
+
+.contact-us {
+    background-color: #6cc091;
+    height: 700px;
+    color: #fff;
+    padding-top: 75px
+}
+
+.contact-us h4 {
+    font-weight: 500;
+    margin-bottom: 40px
+}
+
+.contact-us input {
+    background-color: #6cc091;
+    border: 1px solid #9cbeb3;
+    border-radius: 12px ;
+    padding: 10px 13px;
+    margin-bottom: 20px
+}
+
+.contact-us input:focus,
+.contact-us textarea:focus{
+    border: 3px solid #4bae77;
+    
+}
+
+.contact-us input::placeholder {
+    color: #f7f7f7
+}
+
+.contact-us textarea {
+    height: 187px;
+    background-color: #6cc091;
+    border: 1px solid #9cbeb3;
+    border-radius: 12px ;
+    padding: 10px 13px;
+    margin-bottom: 30px
+
+}
+
+    
+
+textarea::placeholder {
+    color: #f7f7f7
+}
+
+.contact-us button {
+    background-color: #6cc091;
+    padding: 10px 50px;
+    color: #f7f7f7;
+    border: 3px solid #fff;
+    border-radius: 25px 25px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px
+    
+}
+
+
+.contact-us button:hover {
+    background-color: rgba(75,174,119,0.5)
+}
+
+.contact-us button, 
+.contact-us input,
+.contact-us textarea {
+    outline: none
+}
+
+.copyright {
+    font-size: 12px;
+    color: #a6d8b7
+}
+
+.copyright span:hover {
+    cursor: pointer;
+    color: #fff
+}
+
+
+
+/* End contact Us */
+
+
+
+
+
+
+
+
+
+
